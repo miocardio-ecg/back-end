@@ -1,13 +1,13 @@
 # Procesamiento de Señales - Infarto Miocardio (MI)
  
-Este proyecto estudia la característica clave de IM en la elevación del segmento ST.
+Este proyecto permite detectar la anomalía en el segmento ST de la señal ECG que presenta el infarto al miocardio.
 
 
 # Metodología
 
   - Obtención de los datos del MIT
-  - Se utilizará un algoritmo para detectar el complejo PQRST.
-  - Detectado cada uno de los picos del complejo PQRST.
+  - Implementacion de un algoritmo para detectar el complejo PQRST.
+  - Detectar cada uno de los picos del complejo PQRST.
   - Separación del Intervalo S-T en ambas señales.
   - Sacar promediados de los segmentos S-T
   - Encontrar la deformación del segmento S-T
@@ -33,10 +33,21 @@ Este proyecto estudia la característica clave de IM en la elevación del segmen
 | mongoengine-goodjson | https://pypi.org/project/mongoengine-goodjson/ |
 | pandas | https://pandas.pydata.org/docs/getting_started/index.html#getting-started | 
 
+## Routes
+    Señal
+     https://back-ecg.herokuapp.com/api/signals')
+     https://back-ecg.herokuapp.com/api/signals/<name>')
+    Imágenes
+     https://back-ecg.herokuapp.com/api/images/<name>')
+     
+## Documentación
+<https://www.dropbox.com/s/l2vunrb2a2hpbce/Informe.pdf?dl=0>
+
+
 ## Developers
 
-Back-End : Jhon Oña
-Front-End : Carlos Campoverde (https://github.com/miocardio-ecg/front-end.git)
+* Back-End : Jhon Oña
+* Front-End : Carlos Campoverde (https://github.com/miocardio-ecg/front-end.git)
  
 Universidad Central del Ecuador
  
