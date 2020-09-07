@@ -33,13 +33,15 @@ Este proyecto permite detectar la anomalía en el segmento ST de la señal ECG q
 | mongoengine-goodjson | https://pypi.org/project/mongoengine-goodjson/ |
 | pandas | https://pandas.pydata.org/docs/getting_started/index.html#getting-started | 
 
-## Routes
-    Señal
-     https://back-ecg.herokuapp.com/api/signals')
-     https://back-ecg.herokuapp.com/api/signals/<name>')
-    Imágenes
-     https://back-ecg.herokuapp.com/api/images/<name>')
-     
+
+### Routes
+ 
+
+|  |  |
+| ------ | ------ |
+| señal | <https://back-ecg.herokuapp.com/api/signals>|
+| imagenes | <https://back-ecg.herokuapp.com/api/images/signal> |
+
 ## Documentación
 <https://www.dropbox.com/s/l2vunrb2a2hpbce/Informe.pdf?dl=0>
 
